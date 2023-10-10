@@ -1,6 +1,6 @@
 
-const UserRouter = require("../src/routers/user");
-const client = require('./db/connection.js');
+const UserRouter = require("./routers/router");
+// const client = require('./db/connection.js');
 const express = require("express");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
