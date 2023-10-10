@@ -33,7 +33,7 @@
             class="nav-link mb-1 p-1 ms-1 rounded-1"
             active-class="active bg-secondary"
             @click="show = 'collapse'"
-            to="/login"
+            to="/"
             >Login&signin</RouterLink
           >
           <RouterLink
