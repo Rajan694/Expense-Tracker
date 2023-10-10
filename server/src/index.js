@@ -1,4 +1,3 @@
-
 const UserRouter = require("./routers/router");
 // const client = require('./db/connection.js');
 const express = require("express");
@@ -14,6 +13,7 @@ app.use(
     credentials: true,
   })
 );
+console.log("i love charmi");
 app.use(express.json());
 app.use(cookieParser());
 app.use(UserRouter);
